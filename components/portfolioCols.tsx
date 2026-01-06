@@ -6,7 +6,7 @@ export const portfolioColumns: ColumnDef<PortfolioRow>[] = [
   { header: "Particulars", accessorKey: "stockName" },
   {
     header: "Purchase Price",
-    accessorKey: "purchasePrice",
+    accessorKey: "purchasePriceVal",
     cell: ({ getValue }) => formatMoney(getValue<number>()),
   },
   { header: "Qty", accessorKey: "quantity" },

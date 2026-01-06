@@ -20,7 +20,9 @@
 # production
 /build
 
-# misc
+/data
+
+# miscgit ad
 .DS_Store
 *.pem
 
